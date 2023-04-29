@@ -1,0 +1,587 @@
+[
+    {
+        "label": "tkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "tela",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "tela = tk.Tk()\ntela.geometry('1366x768+0+0')\ntela.state('zoomed')\ntela['bg'] = \"black\"\ntela.title(\"Agenda Eletrônica 1.0\")\nlblcodigo = tk.Label(tela, text =\"Codigo:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblcodigo.place(x = 50, y = 60, width=80, height = 25)\ntxtcodigo = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtcodigo.place(x = 150, y = 60, width = 100, height = 25)\nlblnome = tk.Label(tela, text =\"nome:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "tela['bg']",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "tela['bg'] = \"black\"\ntela.title(\"Agenda Eletrônica 1.0\")\nlblcodigo = tk.Label(tela, text =\"Codigo:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblcodigo.place(x = 50, y = 60, width=80, height = 25)\ntxtcodigo = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtcodigo.place(x = 150, y = 60, width = 100, height = 25)\nlblnome = tk.Label(tela, text =\"nome:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblnome.place(x = 50, y = 100, width=80, height = 25)\ntxtnome = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtnome.place(x = 150, y = 100, width = 150, height = 25)",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "lblcodigo",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "lblcodigo = tk.Label(tela, text =\"Codigo:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblcodigo.place(x = 50, y = 60, width=80, height = 25)\ntxtcodigo = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtcodigo.place(x = 150, y = 60, width = 100, height = 25)\nlblnome = tk.Label(tela, text =\"nome:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblnome.place(x = 50, y = 100, width=80, height = 25)\ntxtnome = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtnome.place(x = 150, y = 100, width = 150, height = 25)\nlblClassificacao = tk.Label(tela, text =\"Classificação:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblClassificacao.place(x = 50, y = 140, width=90, height = 25)",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "lblcodigo.place(x",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "lblcodigo.place(x = 50, y = 60, width=80, height = 25)\ntxtcodigo = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtcodigo.place(x = 150, y = 60, width = 100, height = 25)\nlblnome = tk.Label(tela, text =\"nome:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblnome.place(x = 50, y = 100, width=80, height = 25)\ntxtnome = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtnome.place(x = 150, y = 100, width = 150, height = 25)\nlblClassificacao = tk.Label(tela, text =\"Classificação:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblClassificacao.place(x = 50, y = 140, width=90, height = 25)\ntxtClassificacao = tk.Entry(tela, width = 35, font=('Calibri', 12))",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "txtcodigo",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "txtcodigo = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtcodigo.place(x = 150, y = 60, width = 100, height = 25)\nlblnome = tk.Label(tela, text =\"nome:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblnome.place(x = 50, y = 100, width=80, height = 25)\ntxtnome = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtnome.place(x = 150, y = 100, width = 150, height = 25)\nlblClassificacao = tk.Label(tela, text =\"Classificação:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblClassificacao.place(x = 50, y = 140, width=90, height = 25)\ntxtClassificacao = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtClassificacao.place(x = 150, y = 140, width = 150, height = 25)",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "txtcodigo.place(x",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "txtcodigo.place(x = 150, y = 60, width = 100, height = 25)\nlblnome = tk.Label(tela, text =\"nome:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblnome.place(x = 50, y = 100, width=80, height = 25)\ntxtnome = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtnome.place(x = 150, y = 100, width = 150, height = 25)\nlblClassificacao = tk.Label(tela, text =\"Classificação:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblClassificacao.place(x = 50, y = 140, width=90, height = 25)\ntxtClassificacao = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtClassificacao.place(x = 150, y = 140, width = 150, height = 25)\nlblcelular = tk.Label(tela, text =\"celular:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "lblnome",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "lblnome = tk.Label(tela, text =\"nome:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblnome.place(x = 50, y = 100, width=80, height = 25)\ntxtnome = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtnome.place(x = 150, y = 100, width = 150, height = 25)\nlblClassificacao = tk.Label(tela, text =\"Classificação:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblClassificacao.place(x = 50, y = 140, width=90, height = 25)\ntxtClassificacao = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtClassificacao.place(x = 150, y = 140, width = 150, height = 25)\nlblcelular = tk.Label(tela, text =\"celular:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblcelular.place(x = 50, y = 180, width=150, height = 25)",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "lblnome.place(x",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "lblnome.place(x = 50, y = 100, width=80, height = 25)\ntxtnome = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtnome.place(x = 150, y = 100, width = 150, height = 25)\nlblClassificacao = tk.Label(tela, text =\"Classificação:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblClassificacao.place(x = 50, y = 140, width=90, height = 25)\ntxtClassificacao = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtClassificacao.place(x = 150, y = 140, width = 150, height = 25)\nlblcelular = tk.Label(tela, text =\"celular:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblcelular.place(x = 50, y = 180, width=150, height = 25)\ntxtcelular = tk.Entry(tela, width = 40, font=('Calibri', 12))",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "txtnome",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "txtnome = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtnome.place(x = 150, y = 100, width = 150, height = 25)\nlblClassificacao = tk.Label(tela, text =\"Classificação:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblClassificacao.place(x = 50, y = 140, width=90, height = 25)\ntxtClassificacao = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtClassificacao.place(x = 150, y = 140, width = 150, height = 25)\nlblcelular = tk.Label(tela, text =\"celular:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblcelular.place(x = 50, y = 180, width=150, height = 25)\ntxtcelular = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtcelular.place(x = 150, y = 180, width = 150, height = 25)",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "txtnome.place(x",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "txtnome.place(x = 150, y = 100, width = 150, height = 25)\nlblClassificacao = tk.Label(tela, text =\"Classificação:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblClassificacao.place(x = 50, y = 140, width=90, height = 25)\ntxtClassificacao = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtClassificacao.place(x = 150, y = 140, width = 150, height = 25)\nlblcelular = tk.Label(tela, text =\"celular:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblcelular.place(x = 50, y = 180, width=150, height = 25)\ntxtcelular = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtcelular.place(x = 150, y = 180, width = 150, height = 25)\nlblrecidencial = tk.Label(tela, text =\"recidencial:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "lblClassificacao",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "lblClassificacao = tk.Label(tela, text =\"Classificação:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblClassificacao.place(x = 50, y = 140, width=90, height = 25)\ntxtClassificacao = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtClassificacao.place(x = 150, y = 140, width = 150, height = 25)\nlblcelular = tk.Label(tela, text =\"celular:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblcelular.place(x = 50, y = 180, width=150, height = 25)\ntxtcelular = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtcelular.place(x = 150, y = 180, width = 150, height = 25)\nlblrecidencial = tk.Label(tela, text =\"recidencial:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblrecidencial.place(x = 50, y = 220, width=150, height = 25)",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "lblClassificacao.place(x",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "lblClassificacao.place(x = 50, y = 140, width=90, height = 25)\ntxtClassificacao = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtClassificacao.place(x = 150, y = 140, width = 150, height = 25)\nlblcelular = tk.Label(tela, text =\"celular:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblcelular.place(x = 50, y = 180, width=150, height = 25)\ntxtcelular = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtcelular.place(x = 150, y = 180, width = 150, height = 25)\nlblrecidencial = tk.Label(tela, text =\"recidencial:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblrecidencial.place(x = 50, y = 220, width=150, height = 25)\ntxtrecidencial = tk.Entry(tela, width = 40, font=('Calibri', 12))",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "txtClassificacao",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "txtClassificacao = tk.Entry(tela, width = 35, font=('Calibri', 12))\ntxtClassificacao.place(x = 150, y = 140, width = 150, height = 25)\nlblcelular = tk.Label(tela, text =\"celular:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblcelular.place(x = 50, y = 180, width=150, height = 25)\ntxtcelular = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtcelular.place(x = 150, y = 180, width = 150, height = 25)\nlblrecidencial = tk.Label(tela, text =\"recidencial:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblrecidencial.place(x = 50, y = 220, width=150, height = 25)\ntxtrecidencial = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtrecidencial.place(x = 150, y = 220, width = 150, height = 25)",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "txtClassificacao.place(x",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "txtClassificacao.place(x = 150, y = 140, width = 150, height = 25)\nlblcelular = tk.Label(tela, text =\"celular:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblcelular.place(x = 50, y = 180, width=150, height = 25)\ntxtcelular = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtcelular.place(x = 150, y = 180, width = 150, height = 25)\nlblrecidencial = tk.Label(tela, text =\"recidencial:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblrecidencial.place(x = 50, y = 220, width=150, height = 25)\ntxtrecidencial = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtrecidencial.place(x = 150, y = 220, width = 150, height = 25)\nlblemail = tk.Label(tela, text =\"Email:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "lblcelular",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "lblcelular = tk.Label(tela, text =\"celular:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblcelular.place(x = 50, y = 180, width=150, height = 25)\ntxtcelular = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtcelular.place(x = 150, y = 180, width = 150, height = 25)\nlblrecidencial = tk.Label(tela, text =\"recidencial:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblrecidencial.place(x = 50, y = 220, width=150, height = 25)\ntxtrecidencial = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtrecidencial.place(x = 150, y = 220, width = 150, height = 25)\nlblemail = tk.Label(tela, text =\"Email:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblemail.place(x = 50, y = 260, width=150, height = 25)",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "lblcelular.place(x",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "lblcelular.place(x = 50, y = 180, width=150, height = 25)\ntxtcelular = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtcelular.place(x = 150, y = 180, width = 150, height = 25)\nlblrecidencial = tk.Label(tela, text =\"recidencial:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblrecidencial.place(x = 50, y = 220, width=150, height = 25)\ntxtrecidencial = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtrecidencial.place(x = 150, y = 220, width = 150, height = 25)\nlblemail = tk.Label(tela, text =\"Email:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblemail.place(x = 50, y = 260, width=150, height = 25)\ntxtemail = tk.Entry(tela, width = 40, font=('Calibri', 12))",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "txtcelular",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "txtcelular = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtcelular.place(x = 150, y = 180, width = 150, height = 25)\nlblrecidencial = tk.Label(tela, text =\"recidencial:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblrecidencial.place(x = 50, y = 220, width=150, height = 25)\ntxtrecidencial = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtrecidencial.place(x = 150, y = 220, width = 150, height = 25)\nlblemail = tk.Label(tela, text =\"Email:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblemail.place(x = 50, y = 260, width=150, height = 25)\ntxtemail = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtemail.place(x = 150, y = 260, width = 150, height = 25)",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "txtcelular.place(x",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "txtcelular.place(x = 150, y = 180, width = 150, height = 25)\nlblrecidencial = tk.Label(tela, text =\"recidencial:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblrecidencial.place(x = 50, y = 220, width=150, height = 25)\ntxtrecidencial = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtrecidencial.place(x = 150, y = 220, width = 150, height = 25)\nlblemail = tk.Label(tela, text =\"Email:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblemail.place(x = 50, y = 260, width=150, height = 25)\ntxtemail = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtemail.place(x = 150, y = 260, width = 150, height = 25)\nlblObservacao = tk.Label(tela, text =\"Observação:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "lblrecidencial",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "lblrecidencial = tk.Label(tela, text =\"recidencial:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblrecidencial.place(x = 50, y = 220, width=150, height = 25)\ntxtrecidencial = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtrecidencial.place(x = 150, y = 220, width = 150, height = 25)\nlblemail = tk.Label(tela, text =\"Email:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblemail.place(x = 50, y = 260, width=150, height = 25)\ntxtemail = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtemail.place(x = 150, y = 260, width = 150, height = 25)\nlblObservacao = tk.Label(tela, text =\"Observação:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblObservacao.place(x = 50, y = 300, width=150, height = 25)",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "lblrecidencial.place(x",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "lblrecidencial.place(x = 50, y = 220, width=150, height = 25)\ntxtrecidencial = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtrecidencial.place(x = 150, y = 220, width = 150, height = 25)\nlblemail = tk.Label(tela, text =\"Email:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblemail.place(x = 50, y = 260, width=150, height = 25)\ntxtemail = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtemail.place(x = 150, y = 260, width = 150, height = 25)\nlblObservacao = tk.Label(tela, text =\"Observação:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblObservacao.place(x = 50, y = 300, width=150, height = 25)\ntxtObservacao = tk.Entry(tela, width = 40, font=('Calibri', 12))",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "txtrecidencial",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "txtrecidencial = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtrecidencial.place(x = 150, y = 220, width = 150, height = 25)\nlblemail = tk.Label(tela, text =\"Email:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblemail.place(x = 50, y = 260, width=150, height = 25)\ntxtemail = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtemail.place(x = 150, y = 260, width = 150, height = 25)\nlblObservacao = tk.Label(tela, text =\"Observação:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblObservacao.place(x = 50, y = 300, width=150, height = 25)\ntxtObservacao = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtObservacao.place(x = 150, y = 300, width = 350, height = 100)",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "txtrecidencial.place(x",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "txtrecidencial.place(x = 150, y = 220, width = 150, height = 25)\nlblemail = tk.Label(tela, text =\"Email:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblemail.place(x = 50, y = 260, width=150, height = 25)\ntxtemail = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtemail.place(x = 150, y = 260, width = 150, height = 25)\nlblObservacao = tk.Label(tela, text =\"Observação:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblObservacao.place(x = 50, y = 300, width=150, height = 25)\ntxtObservacao = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtObservacao.place(x = 150, y = 300, width = 350, height = 100)\nbtngravar = tk.Button(tela, text =\"Gravar\", ",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "lblemail",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "lblemail = tk.Label(tela, text =\"Email:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblemail.place(x = 50, y = 260, width=150, height = 25)\ntxtemail = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtemail.place(x = 150, y = 260, width = 150, height = 25)\nlblObservacao = tk.Label(tela, text =\"Observação:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblObservacao.place(x = 50, y = 300, width=150, height = 25)\ntxtObservacao = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtObservacao.place(x = 150, y = 300, width = 350, height = 100)\nbtngravar = tk.Button(tela, text =\"Gravar\", \n                       bg ='black',foreground='white', font=('Calibri', 12, 'bold'))",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "lblemail.place(x",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "lblemail.place(x = 50, y = 260, width=150, height = 25)\ntxtemail = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtemail.place(x = 150, y = 260, width = 150, height = 25)\nlblObservacao = tk.Label(tela, text =\"Observação:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblObservacao.place(x = 50, y = 300, width=150, height = 25)\ntxtObservacao = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtObservacao.place(x = 150, y = 300, width = 350, height = 100)\nbtngravar = tk.Button(tela, text =\"Gravar\", \n                       bg ='black',foreground='white', font=('Calibri', 12, 'bold'))\nbtngravar.place(x = 150, y = 400, width = 65)",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "txtemail",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "txtemail = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtemail.place(x = 150, y = 260, width = 150, height = 25)\nlblObservacao = tk.Label(tela, text =\"Observação:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblObservacao.place(x = 50, y = 300, width=150, height = 25)\ntxtObservacao = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtObservacao.place(x = 150, y = 300, width = 350, height = 100)\nbtngravar = tk.Button(tela, text =\"Gravar\", \n                       bg ='black',foreground='white', font=('Calibri', 12, 'bold'))\nbtngravar.place(x = 150, y = 400, width = 65)",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "txtemail.place(x",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "txtemail.place(x = 150, y = 260, width = 150, height = 25)\nlblObservacao = tk.Label(tela, text =\"Observação:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblObservacao.place(x = 50, y = 300, width=150, height = 25)\ntxtObservacao = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtObservacao.place(x = 150, y = 300, width = 350, height = 100)\nbtngravar = tk.Button(tela, text =\"Gravar\", \n                       bg ='black',foreground='white', font=('Calibri', 12, 'bold'))\nbtngravar.place(x = 150, y = 400, width = 65)",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "lblObservacao",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "lblObservacao = tk.Label(tela, text =\"Observação:\", bg=\"black\", fg=\"blue\", font=('Calibri', 12), anchor = \"w\")\nlblObservacao.place(x = 50, y = 300, width=150, height = 25)\ntxtObservacao = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtObservacao.place(x = 150, y = 300, width = 350, height = 100)\nbtngravar = tk.Button(tela, text =\"Gravar\", \n                       bg ='black',foreground='white', font=('Calibri', 12, 'bold'))\nbtngravar.place(x = 150, y = 400, width = 65)",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "lblObservacao.place(x",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "lblObservacao.place(x = 50, y = 300, width=150, height = 25)\ntxtObservacao = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtObservacao.place(x = 150, y = 300, width = 350, height = 100)\nbtngravar = tk.Button(tela, text =\"Gravar\", \n                       bg ='black',foreground='white', font=('Calibri', 12, 'bold'))\nbtngravar.place(x = 150, y = 400, width = 65)",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "txtObservacao",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "txtObservacao = tk.Entry(tela, width = 40, font=('Calibri', 12))\ntxtObservacao.place(x = 150, y = 300, width = 350, height = 100)\nbtngravar = tk.Button(tela, text =\"Gravar\", \n                       bg ='black',foreground='white', font=('Calibri', 12, 'bold'))\nbtngravar.place(x = 150, y = 400, width = 65)",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "txtObservacao.place(x",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "txtObservacao.place(x = 150, y = 300, width = 350, height = 100)\nbtngravar = tk.Button(tela, text =\"Gravar\", \n                       bg ='black',foreground='white', font=('Calibri', 12, 'bold'))\nbtngravar.place(x = 150, y = 400, width = 65)",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "btngravar",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "btngravar = tk.Button(tela, text =\"Gravar\", \n                       bg ='black',foreground='white', font=('Calibri', 12, 'bold'))\nbtngravar.place(x = 150, y = 400, width = 65)\ntela.mainloop()",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "btngravar.place(x",
+        "kind": 5,
+        "importPath": "metodo _construtor.agenda.Agenda",
+        "description": "metodo _construtor.agenda.Agenda",
+        "peekOfCode": "btngravar.place(x = 150, y = 400, width = 65)\ntela.mainloop()",
+        "detail": "metodo _construtor.agenda.Agenda",
+        "documentation": {}
+    },
+    {
+        "label": "Carro",
+        "kind": 6,
+        "importPath": "metodo _construtor.carro",
+        "description": "metodo _construtor.carro",
+        "peekOfCode": "class Carro:\n    classe= \"Veiculo Leve\"\n    def __init__(self,tipo,cor,placa,portas):\n        self.tipo=tipo\n        self.cor=cor\n        self.placa=placa\n        self.portas=portas\n        self. status=\"Estacionamento\"\n    def andar(self):\n        self.status=\"veiculo em movimento\"",
+        "detail": "metodo _construtor.carro",
+        "documentation": {}
+    },
+    {
+        "label": "Veicul",
+        "kind": 6,
+        "importPath": "metodo _construtor.carro",
+        "description": "metodo _construtor.carro",
+        "peekOfCode": "class Veiculo (Carro):\n        combustivel=\"Gasolina \" \ncarro1 = Veiculo (\"gol\",\"preto\",\"GTV-2155858\",4)\ncarro2 = Veiculo (\"combi\",\"preto\",\"GTV-1457458\",2)\ncarro1.andar()\ncarro1.parar()\ncarro2.andar()\nprint(\"carro1\",carro1.tipo,carro1.cor, carro1.placa,carro1.portas, carro1.status, carro1.combustivel)\nprint(\"carro2\",carro2.tipo,carro2.cor, carro2.placa,carro2.portas, carro2.status, carro2.combustivel)",
+        "detail": "metodo _construtor.carro",
+        "documentation": {}
+    },
+    {
+        "label": "carro1",
+        "kind": 5,
+        "importPath": "metodo _construtor.carro",
+        "description": "metodo _construtor.carro",
+        "peekOfCode": "carro1 = Veiculo (\"gol\",\"preto\",\"GTV-2155858\",4)\ncarro2 = Veiculo (\"combi\",\"preto\",\"GTV-1457458\",2)\ncarro1.andar()\ncarro1.parar()\ncarro2.andar()\nprint(\"carro1\",carro1.tipo,carro1.cor, carro1.placa,carro1.portas, carro1.status, carro1.combustivel)\nprint(\"carro2\",carro2.tipo,carro2.cor, carro2.placa,carro2.portas, carro2.status, carro2.combustivel)",
+        "detail": "metodo _construtor.carro",
+        "documentation": {}
+    },
+    {
+        "label": "carro2",
+        "kind": 5,
+        "importPath": "metodo _construtor.carro",
+        "description": "metodo _construtor.carro",
+        "peekOfCode": "carro2 = Veiculo (\"combi\",\"preto\",\"GTV-1457458\",2)\ncarro1.andar()\ncarro1.parar()\ncarro2.andar()\nprint(\"carro1\",carro1.tipo,carro1.cor, carro1.placa,carro1.portas, carro1.status, carro1.combustivel)\nprint(\"carro2\",carro2.tipo,carro2.cor, carro2.placa,carro2.portas, carro2.status, carro2.combustivel)",
+        "detail": "metodo _construtor.carro",
+        "documentation": {}
+    },
+    {
+        "label": "Carro",
+        "kind": 6,
+        "importPath": "metodo _construtor.construtor",
+        "description": "metodo _construtor.construtor",
+        "peekOfCode": "class Carro(object):\n def __init__(self, marca):\n  self.marca = marca\n  print('Eu sou um carro da marca ', self.marca )\ncar1 = Carro('Honda')\ncar2 = Carro('Mitsubishi')",
+        "detail": "metodo _construtor.construtor",
+        "documentation": {}
+    },
+    {
+        "label": "car1",
+        "kind": 5,
+        "importPath": "metodo _construtor.construtor",
+        "description": "metodo _construtor.construtor",
+        "peekOfCode": "car1 = Carro('Honda')\ncar2 = Carro('Mitsubishi')",
+        "detail": "metodo _construtor.construtor",
+        "documentation": {}
+    },
+    {
+        "label": "car2",
+        "kind": 5,
+        "importPath": "metodo _construtor.construtor",
+        "description": "metodo _construtor.construtor",
+        "peekOfCode": "car2 = Carro('Mitsubishi')",
+        "detail": "metodo _construtor.construtor",
+        "documentation": {}
+    },
+    {
+        "label": "Carro",
+        "kind": 6,
+        "importPath": "metodo _construtor.contrutorexemplo1",
+        "description": "metodo _construtor.contrutorexemplo1",
+        "peekOfCode": "class Carro(object):\n def __init__(self):\n  print('Eu sou um carro')\ncar = Carro()",
+        "detail": "metodo _construtor.contrutorexemplo1",
+        "documentation": {}
+    },
+    {
+        "label": "car",
+        "kind": 5,
+        "importPath": "metodo _construtor.contrutorexemplo1",
+        "description": "metodo _construtor.contrutorexemplo1",
+        "peekOfCode": "car = Carro()",
+        "detail": "metodo _construtor.contrutorexemplo1",
+        "documentation": {}
+    },
+    {
+        "label": "Pesso",
+        "kind": 6,
+        "importPath": "metodo _construtor.pessoa",
+        "description": "metodo _construtor.pessoa",
+        "peekOfCode": "class Pessoa (object):\n    def __init__(self,nome , cpf , email ):\n        self.nome = nome\n        self.cpf = cpf\n        self.email = email\n        print (\"seu nome é \",self.nome, \"seu cpf é:\",self.cpf, \"seu email é \",self.email)\np1 =Pessoa(\"thiago\", 2252558822,\"thiago.arica@ gmail.com\")\np2 =Pessoa(\"mestre \", 2252558822,\"mestre@mestrepy.com\")",
+        "detail": "metodo _construtor.pessoa",
+        "documentation": {}
+    },
+    {
+        "label": "Carro",
+        "kind": 6,
+        "importPath": "metodo _construtor.poliformismo",
+        "description": "metodo _construtor.poliformismo",
+        "peekOfCode": "class Carro:\n    def ola (self):\n        print(\"Ola,eu sou um carro\")\nclass Gol (Carro):\n     print(\"ola eu sou um,gol\")\nteste1 = Carro()\nteste1 .ola()\nteste2 = Gol()\nteste2 .ola()",
+        "detail": "metodo _construtor.poliformismo",
+        "documentation": {}
+    },
+    {
+        "label": "Go",
+        "kind": 6,
+        "importPath": "metodo _construtor.poliformismo",
+        "description": "metodo _construtor.poliformismo",
+        "peekOfCode": "class Gol (Carro):\n     print(\"ola eu sou um,gol\")\nteste1 = Carro()\nteste1 .ola()\nteste2 = Gol()\nteste2 .ola()",
+        "detail": "metodo _construtor.poliformismo",
+        "documentation": {}
+    },
+    {
+        "label": "teste1",
+        "kind": 5,
+        "importPath": "metodo _construtor.poliformismo",
+        "description": "metodo _construtor.poliformismo",
+        "peekOfCode": "teste1 = Carro()\nteste1 .ola()\nteste2 = Gol()\nteste2 .ola()",
+        "detail": "metodo _construtor.poliformismo",
+        "documentation": {}
+    },
+    {
+        "label": "teste2",
+        "kind": 5,
+        "importPath": "metodo _construtor.poliformismo",
+        "description": "metodo _construtor.poliformismo",
+        "peekOfCode": "teste2 = Gol()\nteste2 .ola()",
+        "detail": "metodo _construtor.poliformismo",
+        "documentation": {}
+    },
+    {
+        "label": "Super",
+        "kind": 6,
+        "importPath": "metodo _construtor.polimorfismo2",
+        "description": "metodo _construtor.polimorfismo2",
+        "peekOfCode": "class Super:\n def ola(self):\n  print(\"Olá, sou a superclasse!\")\nclass Sub (Super):\n def ola(self):\n   print(\"Olá, sou a subclasse!\")\nclass Subsub (Sub):\n def ola(self):\n  print(\"Olá, sou a subsubclasse!\")\nteste1 = Super()",
+        "detail": "metodo _construtor.polimorfismo2",
+        "documentation": {}
+    },
+    {
+        "label": "Su",
+        "kind": 6,
+        "importPath": "metodo _construtor.polimorfismo2",
+        "description": "metodo _construtor.polimorfismo2",
+        "peekOfCode": "class Sub (Super):\n def ola(self):\n   print(\"Olá, sou a subclasse!\")\nclass Subsub (Sub):\n def ola(self):\n  print(\"Olá, sou a subsubclasse!\")\nteste1 = Super()\nteste1.ola()\nteste2 = Sub()\nteste2.ola()",
+        "detail": "metodo _construtor.polimorfismo2",
+        "documentation": {}
+    },
+    {
+        "label": "Subsu",
+        "kind": 6,
+        "importPath": "metodo _construtor.polimorfismo2",
+        "description": "metodo _construtor.polimorfismo2",
+        "peekOfCode": "class Subsub (Sub):\n def ola(self):\n  print(\"Olá, sou a subsubclasse!\")\nteste1 = Super()\nteste1.ola()\nteste2 = Sub()\nteste2.ola()\nteste3 = Subsub()\nteste3.ola()",
+        "detail": "metodo _construtor.polimorfismo2",
+        "documentation": {}
+    },
+    {
+        "label": "teste1",
+        "kind": 5,
+        "importPath": "metodo _construtor.polimorfismo2",
+        "description": "metodo _construtor.polimorfismo2",
+        "peekOfCode": "teste1 = Super()\nteste1.ola()\nteste2 = Sub()\nteste2.ola()\nteste3 = Subsub()\nteste3.ola()",
+        "detail": "metodo _construtor.polimorfismo2",
+        "documentation": {}
+    },
+    {
+        "label": "teste2",
+        "kind": 5,
+        "importPath": "metodo _construtor.polimorfismo2",
+        "description": "metodo _construtor.polimorfismo2",
+        "peekOfCode": "teste2 = Sub()\nteste2.ola()\nteste3 = Subsub()\nteste3.ola()",
+        "detail": "metodo _construtor.polimorfismo2",
+        "documentation": {}
+    },
+    {
+        "label": "teste3",
+        "kind": 5,
+        "importPath": "metodo _construtor.polimorfismo2",
+        "description": "metodo _construtor.polimorfismo2",
+        "peekOfCode": "teste3 = Subsub()\nteste3.ola()",
+        "detail": "metodo _construtor.polimorfismo2",
+        "documentation": {}
+    },
+    {
+        "label": "Carro",
+        "kind": 6,
+        "importPath": "orientacao_objetos.carro",
+        "description": "orientacao_objetos.carro",
+        "peekOfCode": "class Carro:\n    #atributos que contem na sua classe:\n    tipo= \"\"\n    cor =\"\"\n    placa=\"\"\n    portas =\"\"\n# criando objetos: \ncarro1= Carro()\ncarro1.tipo = \"combi\"\ncarro1 .cor=\"branco\"",
+        "detail": "orientacao_objetos.carro",
+        "documentation": {}
+    },
+    {
+        "label": "carro1.tipo",
+        "kind": 5,
+        "importPath": "orientacao_objetos.carro",
+        "description": "orientacao_objetos.carro",
+        "peekOfCode": "carro1.tipo = \"combi\"\ncarro1 .cor=\"branco\"\ncarro1.placa = \"Th2 45474\"\ncarro1.portas = \"4\"\nprint (\"Tipo:\",carro1.tipo)\nprint (\"cor:\",carro1.cor)\nprint (\"placa:\",carro1.placa)\nprint (\"portas:\",carro1.portas)",
+        "detail": "orientacao_objetos.carro",
+        "documentation": {}
+    },
+    {
+        "label": "carro1.placa",
+        "kind": 5,
+        "importPath": "orientacao_objetos.carro",
+        "description": "orientacao_objetos.carro",
+        "peekOfCode": "carro1.placa = \"Th2 45474\"\ncarro1.portas = \"4\"\nprint (\"Tipo:\",carro1.tipo)\nprint (\"cor:\",carro1.cor)\nprint (\"placa:\",carro1.placa)\nprint (\"portas:\",carro1.portas)",
+        "detail": "orientacao_objetos.carro",
+        "documentation": {}
+    },
+    {
+        "label": "carro1.portas",
+        "kind": 5,
+        "importPath": "orientacao_objetos.carro",
+        "description": "orientacao_objetos.carro",
+        "peekOfCode": "carro1.portas = \"4\"\nprint (\"Tipo:\",carro1.tipo)\nprint (\"cor:\",carro1.cor)\nprint (\"placa:\",carro1.placa)\nprint (\"portas:\",carro1.portas)",
+        "detail": "orientacao_objetos.carro",
+        "documentation": {}
+    },
+    {
+        "label": "Carro",
+        "kind": 6,
+        "importPath": "orientacao_objetos.carro3",
+        "description": "orientacao_objetos.carro3",
+        "peekOfCode": "class Carro:\n tipo = ''\n cor = ''\n placa = ''\n num_portas = 0\n def andar(self):\n  print('O veículo', self.tipo, self.cor ,self.placa,'está em movimento')\ncarro1 = Carro()\ncarro1.tipo = 'Porsche'\ncarro1.cor = 'Branco'",
+        "detail": "orientacao_objetos.carro3",
+        "documentation": {}
+    },
+    {
+        "label": "carro1",
+        "kind": 5,
+        "importPath": "orientacao_objetos.carro3",
+        "description": "orientacao_objetos.carro3",
+        "peekOfCode": "carro1 = Carro()\ncarro1.tipo = 'Porsche'\ncarro1.cor = 'Branco'\ncarro1.placa = 'MHZ-4345'\ncarro1.num_portas = 4\nprint('*** Carro 1 ***')\nprint('Tipo:',carro1.tipo)\nprint('Cor:',carro1.cor)\nprint('Placa:',carro1.placa)\nprint('Num Portas:',carro1.num_portas)",
+        "detail": "orientacao_objetos.carro3",
+        "documentation": {}
+    },
+    {
+        "label": "carro1.tipo",
+        "kind": 5,
+        "importPath": "orientacao_objetos.carro3",
+        "description": "orientacao_objetos.carro3",
+        "peekOfCode": "carro1.tipo = 'Porsche'\ncarro1.cor = 'Branco'\ncarro1.placa = 'MHZ-4345'\ncarro1.num_portas = 4\nprint('*** Carro 1 ***')\nprint('Tipo:',carro1.tipo)\nprint('Cor:',carro1.cor)\nprint('Placa:',carro1.placa)\nprint('Num Portas:',carro1.num_portas)\ncarro1.andar()",
+        "detail": "orientacao_objetos.carro3",
+        "documentation": {}
+    },
+    {
+        "label": "carro1.cor",
+        "kind": 5,
+        "importPath": "orientacao_objetos.carro3",
+        "description": "orientacao_objetos.carro3",
+        "peekOfCode": "carro1.cor = 'Branco'\ncarro1.placa = 'MHZ-4345'\ncarro1.num_portas = 4\nprint('*** Carro 1 ***')\nprint('Tipo:',carro1.tipo)\nprint('Cor:',carro1.cor)\nprint('Placa:',carro1.placa)\nprint('Num Portas:',carro1.num_portas)\ncarro1.andar()\nCarro.num_portas = 2",
+        "detail": "orientacao_objetos.carro3",
+        "documentation": {}
+    },
+    {
+        "label": "carro1.placa",
+        "kind": 5,
+        "importPath": "orientacao_objetos.carro3",
+        "description": "orientacao_objetos.carro3",
+        "peekOfCode": "carro1.placa = 'MHZ-4345'\ncarro1.num_portas = 4\nprint('*** Carro 1 ***')\nprint('Tipo:',carro1.tipo)\nprint('Cor:',carro1.cor)\nprint('Placa:',carro1.placa)\nprint('Num Portas:',carro1.num_portas)\ncarro1.andar()\nCarro.num_portas = 2\ncarro2 = Carro()",
+        "detail": "orientacao_objetos.carro3",
+        "documentation": {}
+    },
+    {
+        "label": "carro1.num_portas",
+        "kind": 5,
+        "importPath": "orientacao_objetos.carro3",
+        "description": "orientacao_objetos.carro3",
+        "peekOfCode": "carro1.num_portas = 4\nprint('*** Carro 1 ***')\nprint('Tipo:',carro1.tipo)\nprint('Cor:',carro1.cor)\nprint('Placa:',carro1.placa)\nprint('Num Portas:',carro1.num_portas)\ncarro1.andar()\nCarro.num_portas = 2\ncarro2 = Carro()\nprint('*** Carro 2 ***')",
+        "detail": "orientacao_objetos.carro3",
+        "documentation": {}
+    },
+    {
+        "label": "Carro.num_portas",
+        "kind": 5,
+        "importPath": "orientacao_objetos.carro3",
+        "description": "orientacao_objetos.carro3",
+        "peekOfCode": "Carro.num_portas = 2\ncarro2 = Carro()\nprint('*** Carro 2 ***')\nprint('Num Portas:',carro2.num_portas)",
+        "detail": "orientacao_objetos.carro3",
+        "documentation": {}
+    },
+    {
+        "label": "carro2",
+        "kind": 5,
+        "importPath": "orientacao_objetos.carro3",
+        "description": "orientacao_objetos.carro3",
+        "peekOfCode": "carro2 = Carro()\nprint('*** Carro 2 ***')\nprint('Num Portas:',carro2.num_portas)",
+        "detail": "orientacao_objetos.carro3",
+        "documentation": {}
+    }
+]
